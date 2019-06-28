@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="vCardLib.dll" Version="2.2.5" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Vcf2Xlsx.Services\Vcf2Xlsx.Services.csproj" />
   </ItemGroup>
 
