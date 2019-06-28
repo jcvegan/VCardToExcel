@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-using MixERP.Net.VCards;
+﻿using vCardLib.Collections;
 
 namespace Vcf2Xlsx.Services.Io
 {
     public interface IVCardReader
     {
-        IEnumerable<VCard> Read(string filePath);
+        vCardCollection Read(string filePath);
     }
 }

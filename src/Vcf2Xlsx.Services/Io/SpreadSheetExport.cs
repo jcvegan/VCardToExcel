@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using MixERP.Net.VCards;
+﻿using vCardLib.Collections;
 
 namespace Vcf2Xlsx.Services.Io
 {
     public class SpreadSheetExport : ISpreadSheetExport
     {
-        public void Export(IEnumerable<VCard> cards, string filePath)
+        public void Export(vCardCollection cards, string filePath)
         {
             throw new System.NotImplementedException();
         }
