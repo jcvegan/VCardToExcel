@@ -2,7 +2,7 @@
   "profiles": {
     "Vcf2Xlsx": {
       "commandName": "Project",
-      "commandLineArgs": "\"Samples\\john-doe.vcf\" \"Contacts.xlsx\""
+      "commandLineArgs": "\"Samples\\Contactos.vcf\" \"Contacts.xlsx\""
     }
   }
 }

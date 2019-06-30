@@ -4,6 +4,6 @@ namespace Vcf2Xlsx.Services.Io
 {
     public interface ISpreadSheetExport
     {
-        void Export(vCardCollection cards, string filePath);
+        void Export(vCardCollection cards, string filePath, string fileName);
     }
 }
