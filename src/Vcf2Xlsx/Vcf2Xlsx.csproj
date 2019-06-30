@@ -10,9 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Samples\Contactos.vcf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Samples\john-doe.vcf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
